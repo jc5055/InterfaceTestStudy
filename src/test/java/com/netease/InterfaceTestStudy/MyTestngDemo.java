@@ -14,11 +14,11 @@ public class MyTestngDemo {
 	}
 	
 	
-	@Test(groups={"pass"})
-	public void testPost() throws Exception {
-		String resp = null;	
-		resp = Demo.postDemo();
-		System.out.println("post:" + resp);
-		Assert.assertTrue(resp.contains("200"));
-	}
+//	@Test(groups={"pass"})
+//	public void testPost() throws Exception {
+//		String resp = null;	
+//		resp = Demo.postDemo();
+//		System.out.println("post:" + resp);
+//		Assert.assertTrue(resp.contains("200"));
+//	}
 }
