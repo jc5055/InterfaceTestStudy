@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="553" started-at="2015-12-15T07:47:00Z" finished-at="2015-12-15T07:47:00Z">
+    <groups>
+      <group name="debug">
+        <method signature="MyTestngDemo.testGet()[pri:0, instance:com.netease.InterfaceTestStudy.MyTestngDemo@266901dc]" name="testGet" class="com.netease.InterfaceTestStudy.MyTestngDemo"/>
+      </group> <!-- debug -->
+      <group name="pass">
+        <method signature="MyTestngDemo.testGet()[pri:0, instance:com.netease.InterfaceTestStudy.MyTestngDemo@266901dc]" name="testGet" class="com.netease.InterfaceTestStudy.MyTestngDemo"/>
+      </group> <!-- pass -->
+    </groups>
+    <test name="case1" duration-ms="553" started-at="2015-12-15T07:47:00Z" finished-at="2015-12-15T07:47:00Z">
+      <class name="com.netease.InterfaceTestStudy.MyTestngDemo">
+        <test-method status="PASS" signature="testGet()[pri:0, instance:com.netease.InterfaceTestStudy.MyTestngDemo@266901dc]" name="testGet" duration-ms="540" started-at="2015-12-15T15:47:00Z" finished-at="2015-12-15T15:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+      </class> <!-- com.netease.InterfaceTestStudy.MyTestngDemo -->
+    </test> <!-- case1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

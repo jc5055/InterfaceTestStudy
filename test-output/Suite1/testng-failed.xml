@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite1]">
+  <test name="case1(failed)">
+    <groups>
+      <run>
+        <include name="debug"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.netease.InterfaceTestStudy.MyTestngDemo">
+        <methods>
+          <include name="testGet"/>
+        </methods>
+      </class> <!-- com.netease.InterfaceTestStudy.MyTestngDemo -->
+    </classes>
+  </test> <!-- case1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

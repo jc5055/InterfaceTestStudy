@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" thread-count="1" verbose="1" annotations="JDK">
+	<test name="case1">
+	    <!-- groups 测试分组 -->
+		<groups>
+			<run>
+			    <!-- 只执行标记为pass的分组 -->
+				<include name="debug" />
+			</run>
+		</groups>
+		<!-- 测试用例所在的类 -->
+		<classes>
+			<class name="com.netease.InterfaceTestStudy.MyTestngDemo" />
+		</classes>
+	</test>
+</suite>
