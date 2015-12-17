@@ -7,10 +7,13 @@ public class MyTestngDemo {
 
 	@Test(groups={"debug","pass"})
 	public void testGet() throws Exception {
+		System.out.println("1111");
 		String resp = null;	
 		resp = Demo.getDemo();
+		System.out.println("222");
 		System.out.println("get:" + resp);
 		Assert.assertTrue(resp.contains("200"));
+		System.out.println("333");
 	}
 	
 	
